@@ -1,3 +1,9 @@
-h1 {
-    color: red;
+* {
+    box-sizing: border-box;
+}
+
+.shedegi {
+    width: 200px;
+    height: 100px;
+    border: 2px solid green;
 }
