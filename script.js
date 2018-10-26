@@ -1,23 +1,22 @@
-function fun() {
-    var daxra = document.getElementsByClassName("daxra").checked;
-    var gamuqeba = document.getElementsByClassName("gamuqeba").checked;
-    var xazisGasma = document.getElementsByClassName("xazisGasma").checked;
+function fun1() {
+    i = document.getElementById('i').checked;
+    b = document.getElementById('b').checked;
+    u = document.getElementById('u').checked;
 
-    var text = document.getElementsByClassName("text").value;
-    var shedegi = document.getElementsByClassName("shedegi");
+    result = document.getElementById('result');
+    var text = document.getElementById('text').value;
 
-    if (daxra) {
+    if (i) {
         text = "<i>" + text + "</i>";
     }
 
-    if (gamuqeba) {
-        text = "b" + text + "</b>";
+    if (b) {
+        text = "<b>" + text + "</b>";
     }
 
-    if (xazisGasma) {
+    if (u) {
         text = "<u>" + text + "</u>";
     }
 
-    shedegi.innerHTML = text;
-
+    result.innerHTML = text;
 }
