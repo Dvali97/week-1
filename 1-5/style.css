@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+#tab {
+    margin: auto;
+    background-color: brown;
+}
+
+tr {
+    
+}
+
+td {
+    padding: 20px;
+    border: 2px solid white;
+}
